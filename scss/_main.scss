@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #252b42;
+}
+$fontFamily: "montserrat";
+$mainColor: #fc724d;
+$iconColor: #b6d7ff;
+$mainColor2: #e74040;
+$priceColor: #0061ff;
+$darkBgColor: #26335d;
+$listColor: #2dc071;
+$starColor: #f3cd03;
+
+.pt-160 {
+  padding-top: 160px;
+}
+
+.pb-160{
+  padding-bottom: 160px;
+}
+
+.bg-dark {
+  background-color: $darkBgColor;
+}
+
+.text-white {
+  h2,
+  p {
+    color: #fff !important;
+  }
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin-bottom: 80px;
+  max-width: 690px;
+  letter-spacing: 0.2px;
+
+  h6 {
+    font-size: 14px;
+    color: $mainColor;
+    font-weight: 700;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252b42;
+  }
+  p {
+    max-width: 470px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+  }
+}
